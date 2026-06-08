@@ -72,6 +72,30 @@
           "type": "csv"
         }
       ]
+    },
+    {
+      "id": "interactive-web-pages",
+      "title": "Interactive Web Pages",
+      "description": "Create an interactive, responsive web page using HTML, CSS, and JavaScript.",
+      "path": "assignments/interactive-web-pages",
+      "dueDate": "2026-07-05",
+      "attachments": [
+        {
+          "name": "Starter HTML",
+          "file": "starter-index.html",
+          "type": "html"
+        },
+        {
+          "name": "Starter CSS",
+          "file": "starter-style.css",
+          "type": "css"
+        },
+        {
+          "name": "Starter JavaScript",
+          "file": "starter-script.js",
+          "type": "javascript"
+        }
+      ]
     }
   ]
 }

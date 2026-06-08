@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Web Pages Starter</title>
+    <link rel="stylesheet" href="starter-style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Interactive Web Page</h1>
+      <p>Use the form below to personalize the page and see it update instantly.</p>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>Personalize your page</h2>
+        <form id="interaction-form">
+          <label for="name">Your name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" />
+
+          <label for="theme">Choose a theme:</label>
+          <select id="theme" name="theme">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+            <option value="colorful">Colorful</option>
+          </select>
+
+          <button type="submit">Update page</button>
+        </form>
+      </section>
+
+      <section class="card" id="greeting-card">
+        <h2>Greeting</h2>
+        <p id="greeting-text">Fill out the form to see a custom greeting.</p>
+      </section>
+
+      <section class="card">
+        <h2>Surprise interaction</h2>
+        <button id="surprise-button">Show surprise</button>
+        <p id="surprise-text" class="hidden">You did it! Interactive pages are fun.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Complete the tasks to make this page responsive and interactive.</p>
+    </footer>
+
+    <script src="starter-script.js"></script>
+  </body>
+</html>
